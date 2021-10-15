@@ -1,0 +1,30 @@
+{
+  "name": "angular-froala-wysiwyg",
+  "version": "3.2.7",
+  "dependencies": {
+    "froala-editor": "3.2.7",
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/angular-froala-wysiwyg.umd.js",
+  "module": "fesm2015/angular-froala-wysiwyg.js",
+  "es2015": "fesm2015/angular-froala-wysiwyg.js",
+  "esm2015": "esm2015/angular-froala-wysiwyg.js",
+  "fesm2015": "fesm2015/angular-froala-wysiwyg.js",
+  "typings": "angular-froala-wysiwyg.d.ts",
+  "metadata": "angular-froala-wysiwyg.metadata.json",
+  "sideEffects": false,
+  "_resolved": "https://registry.npmjs.org/angular-froala-wysiwyg/-/angular-froala-wysiwyg-3.2.7.tgz",
+  "_integrity": "sha512-OP/6ima99YUlPKTlVmusSiD9AR5h6Ok7U4O09rfEdqREmECvvIjVKkcdpmUXowsBcv2n9cc41AA1A1AfrICxww==",
+  "_from": "angular-froala-wysiwyg@3.2.7",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "12.2.1",
+    "esm2015": "12.2.1",
+    "fesm2015": "12.2.1",
+    "main": "12.2.1",
+    "module": "12.2.1",
+    "typings": "12.2.1"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}
