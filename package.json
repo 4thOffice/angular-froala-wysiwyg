@@ -2,7 +2,7 @@
   "name": "angular-froala-wysiwyg",
   "version": "3.2.7",
   "dependencies": {
-    "froala-editor": "3.2.7",
+    "froala-editor": "git+ssh://git@github.com/4thOffice/wysiwyg-editor.git#a7ff3582bff7d38d454f95ff604a4c7c81c63050",
     "tslib": "^2.0.0"
   },
   "main": "bundles/angular-froala-wysiwyg.umd.js",
